@@ -35,12 +35,12 @@ public class RemoveNodes {
 
         int x = sc.nextInt();
 
-        // Remove matching nodes from the beginning of the list.
+
         while (head != null && head.val == x) {
             head = head.next;
         }
 
-        // Remove matching nodes from the rest of the list.
+
         Node temp = head;
 
         while (temp != null && temp.next != null) {
